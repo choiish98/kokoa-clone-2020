@@ -1,4 +1,3 @@
-@@ -0,0 +1,124 @@
 html,
 body,
 div,
@@ -123,7 +122,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 input:focus {
   outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
