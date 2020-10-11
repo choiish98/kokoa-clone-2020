@@ -43,3 +43,27 @@
   color: rgba(0, 0, 0, 0.5);
   align-items: center;
 }
+
+@keyframes highSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 128px;
+  animation: highSplashScreen 0.2s ease-in-out forwards;
+  animation-delay: 1s;
+}
