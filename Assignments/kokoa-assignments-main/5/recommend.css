@@ -1,0 +1,85 @@
+.recommend {
+  margin-bottom: 20pt;
+}
+
+.recommend > h1 {
+  font-size: 14pt;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.recommend_ {
+  display: flex;
+}
+
+.recommend_img img {
+  width: 100px;
+  height: 160px;
+  border-radius: 7px;
+  margin-right: 20px;
+}
+
+.recommend_discript {
+  width: 340pt;
+}
+
+.recommend_discript_title {
+  font-size: 14pt;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.recommend_discript_writer {
+  font-size: 11pt;
+  opacity: 0.4;
+  margin-bottom: 10pt;
+}
+
+.recommend_discript_btn {
+  display: flex;
+}
+
+.recommend_discript_btn_btn {
+  font-size: 11pt;
+  width: 65pt;
+  height: 18pt;
+  border-radius: 2pt;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5pt;
+  margin-bottom: 15pt;
+}
+
+.recommend_discript_buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recommend_discript_buy_bookmark {
+  width: 25pt;
+  height: 25pt;
+  border-radius: 50%;
+  color: rgb(10, 11, 12);
+  background-color: rgb(255, 207, 051);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recommend_discript_buy_book {
+  width: 90pt;
+  height: 25pt;
+  border-radius: 5pt;
+  background-color: rgb(10, 11, 12);
+  color: white;
+  font-size: 10pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recommend_discript_buy_book span {
+  opacity: 0.8;
+}

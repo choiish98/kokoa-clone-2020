@@ -1,0 +1,13 @@
+.nav {
+  width: 340px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 10px;
+  background-color: rgb(255, 206, 51);
+}
+
+.nav__title {
+  font-size: 14pt;
+  font-weight: 600;
+}

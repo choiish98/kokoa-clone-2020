@@ -1,0 +1,16 @@
+@import "stars.css";
+
+@import "nav.css";
+@import "search.css";
+@import "recommend.css";
+@import "top.css";
+@import "pop.css";
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 340px;
+  padding-left: 15px;
+}

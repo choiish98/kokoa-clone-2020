@@ -1,0 +1,40 @@
+.icons {
+  margin: 50px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  height: 50px;
+  border: 2px solid black;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px black;
+}
+
+.icons_play {
+  width: 180px;
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.icons_play i {
+  margin-right: 10px;
+}
+
+.icons_heart {
+  width: 50px;
+  border-radius: 30px;
+}
+
+.icons_plus {
+  width: 50px;
+  border-radius: 30px;
+}
+
+.icons_play span {
+  font-size: 22px;
+  font-weight: 600;
+}

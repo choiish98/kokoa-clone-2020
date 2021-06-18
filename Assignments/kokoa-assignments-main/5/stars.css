@@ -1,0 +1,10 @@
+.stars {
+  font-size: 9pt;
+  margin-bottom: 10pt;
+  color: rgb(255, 206, 52);
+}
+
+.stars i:last-child {
+  color: grey;
+  opacity: 0.3;
+}

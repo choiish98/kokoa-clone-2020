@@ -1,0 +1,18 @@
+.playing_song {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.playing_song_title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 18pt;
+}
+
+.playing_song_singer {
+  font-size: 10pt;
+  opacity: 0.6;
+}

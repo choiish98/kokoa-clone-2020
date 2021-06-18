@@ -1,0 +1,39 @@
+.music_list {
+  width: 250px;
+  height: 57px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin-left: 10px;
+}
+
+.music_list > div {
+  display: flex;
+  align-items: center;
+}
+
+.music_list_img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.music_list_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.music_list_info_singer {
+  font-size: 9pt;
+  opacity: 0.8;
+}
+
+.music_list_info_title {
+  font-weight: 600;
+}
+
+.music_list_icon i {
+  opacity: 0.5;
+}

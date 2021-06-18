@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav__tab">
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+      <div class="nav__title">
+        <h1>library</h1>
+      </div>
+      <div class="nav__store">
+        <i class="fas fa-shopping-basket fa-lg"></i>
+      </div>
+    </div>
+    <div class="search">
+      <span class="search_placeholder">Search books...</span>
+      <div class="search_icon"><i class="fas fa-search"></i></div>
+    </div>
+    <main>
+      <div class="recommend">
+        <h1>Book of the day</h1>
+        <div class="recommend_">
+          <div class="recommend_img">
+            <img src="https://m.media-amazon.com/images/I/512eZ2k0z0L.jpg" />
+          </div>
+          <div class="recommend_discript">
+            <div class="recommend_discript_title">
+              <span>No Fixed Abode</span>
+            </div>
+            <div class="recommend_discript_writer">
+              <span>Journey Through</span>
+            </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="recommend_discript_btn">
+              <div class="recommend_discript_btn_btn"><span>Jouney</span></div>
+              <div class="recommend_discript_btn_btn">
+                <span>Biography</span>
+              </div>
+            </div>
+            <div class="recommend_discript_buy">
+              <div class="recommend_discript_buy_bookmark">
+                <i class="fas fa-bookmark"></i>
+              </div>
+              <div class="recommend_discript_buy_book">
+                <span>Book Now</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top">
+        <span>Top Adventures</span>
+        <div>
+          <div class="top_book">
+            <div class="top_book_img">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0JaaZ1Ub4_S17kpk6j7gogeroDowIHeVVKqrb9xuFKWtyrqYu"
+              />
+            </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="top_book">
+            <div class="top_book_img">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Thejunglebook_movieposter.jpg/220px-Thejunglebook_movieposter.jpg"
+              />
+            </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="top_book">
+            <div class="top_book_img">
+              <img
+                src="https://311english.com/home/data_file/bsbook/1425_1.jpg"
+              />
+            </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="top_book">
+            <div class="top_book_img">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlds9wXYx-PvN4esayrV8XLV9flBY63ZHITw&usqp=CAU"
+              />
+            </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pop">
+        <span>Popular authors</span>
+        <div>
+          <div class="pop_img">
+            <img
+              src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSExMVFRUVFRcVFRgXFxUWFRUWFRcXFxUVFRUYHSggGBolHRcVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQFy0dHR8tLS0tLS0tKy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAADBAIFAAEGBwj/xAA9EAABAwIEAwYEBAUEAQUAAAABAAIRAyEEEjFBBVFhBhMicYGRMqGxwQdC0fAUUmJy4SOCovEkFTRDssL/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQIDBP/EAB8RAQEBAQADAQEAAwAAAAAAAAABEQISITFBAyIyUf/aAAwDAQACEQMRAD8A86c1Y3ksy8p9ipOaRz9lk2YCSNVN7UJlaLWRgM0XHlZINUxJJA012tummzl1KrqROvUo7Wu6+swgGH1D+usFBL0Tu3Ft9FEYawjWJQGmA9YTTLiDrCnhqEtga3RG4f3hIwHAneFLCy3XQo5w07HqfRDFKIsT0RprN0wDyHLfyWYOi1zmgtvIP31RqxbkMcpuUbggGemCPiI9J2SFXdPDSE/hsErShgAnWYELTziMVNPDpunhynatNlNrnvc1jGiXOcQGtA1JJ0XmnaT8TjJp4NoaNO9eJcerGGzR1dJ6BOdaT0ZuHKO2i4bFfN/EsfWrPL6lR7zrLnE+3L0RMJxaswhwe8Obo4Oc1w/3AymWvo9rHdVhpuXl/Z78Va1NuTE0++jRzSG1I62yuPsvUeEcWpYui2vSJyvG9iCNQ4c1Nthod2VgpynYCmAAjyPCYoorKKcaGqfdo0FG00UAIncFQNJyAmx4TDKgSgolFbQKMI0HBTaAl2sKNTCNCZpDkt5QFrOpNKNCMrESFiMD5PNQ6yjU6hJ1QSZHsi0nXlSpp4vfcj6qIF/8IlUCfb6rTYPmgJkN5N62QIJNreKNTujFoF42/ZU6DhM7EhAIV3ODiJPLUpmlIdGZwGmpQcd8bvOUTNF0URZYWJd4je+u6K6qQRf6FK4ETJjkmyemylTH1niCCdQI53TDqNQgx8J9x1AUKbdIuJB+acbXLLAwTIPrrPRAMOrMy+GJgazGl0bhLYqUh/WD1j0Kp3F+ukT5a6Srjg58dMg/mHogPRqNWLJqnUVG2sU1RrlPCeT/AIn9p3YnEPoMf/49F2UAWD6jfjc7nDpaP7ZGq4Y1Rtf981cdrOC1sPiHtqCQ9znU3bPbmnN53EjY+hVU2hzutZ8Z0MVT/wBXUsx/q9v8JltF38p+f2Um4V3L5fqjRlLtceZHmP8Apes/gxjKrm4hriDTGQi9y92aTGosBJ8l59w/hL6l8thckkAAekr1LsVgKeEpOLGTVeZeRyFg2+wufUqerFTmu3L1vOlmukCfZEaVCjtJ8JhlZV7SjMcgH21UQOSbaimKyZYaU0q2ujNro0kmooQxVCn3gTJKVgchOqqBqI08NZwsSfeLEaMfL2cRtCxruqEXiMo3F0SiAkbKjra7j6qVN4Uw9Ra1AbzdRdEpASNOX/aGKYDv1HzRsgF4G8WQCnEmeMmRomaDZplLuog+LmT8k5hMOBmm419UU4LgWkTYqb6hF1CmAZ6DTRK0277X30ulg1aUnEAEbuEjTdEqlxMEa8vO2iXw1Gdp6/MKLKzg+2xjU/ZIzWRxOWJAj/sq34HTPfNtlEi3PqqJ+Ic0mCbkbzA3V5gMQ416d58bRuZg7ckB3gwxRu6ygk7JhlbmEV0OaW8wgnnHacCu9pcAYDmjeA4jT2b7LmcZwwMHhaB1J05eZ0XScUw7m1iHAgkyAZ0Qn0M5iQB1Eys/KyunjmWOLoUKmcwSdQABrPRWuK7M1srZtI1BEEEzB62/d1cVsE+g/vMmZuUEfliCZsZurDDcROIZkyAMNnZheDbwjn1VeVLwn6HwDggpAZgZy21uYNr66rruHEU33PxX9FzeCwppEFhzjZxgu8idVcVqrjSDhGYGxImJGqUu0upM9Opa2booppLs/ju+otLgA9vheBpmG46HX1VsArYAZFJoRsimymgFysTQoKTaHVMFBKk0lODDhSFEBBFmypyU2AFvKExpIvKgXlWAaFp1NqBqvkrE6aTViBr5Zps1WiE62m0AkObpzCCAImR8kBFtIjqpCnYnTkpEgj4o1gqMjd1z9UASvFovIHosFUDQ66IbToJuiNi/1QadMSw+Z+aMCbCY5pSk5sm8SUy2p1FtJ5pBttPflrHLogsonnbVY6plAvvfkmKRa4AAxY62vyQGmk7GAFISXG3lzsVgEHLmAg2TGEAHxPbcc7oMFgjNm3iOQMhX/CBFUO3n5yqosZch/rGt5iFbcOLcwLSCCdNT0KQdDiO11KlXp4eoIfUBIMw0XhocToXGQPLyWdoe29LCDKGZ67h/p05tyDnn8rfmdunnHa6kMTjCKLm1PA1ro0aWlwIJ0PpO6p8XgzRqy9xe+BrOmggk3sI6QtM5Z7XY8PxtTEPNWq7O8nM42honwho2b++aupBGYekjquN7I4rLVLHaOGu28D5rqcTWLbdPQarDue3R/Pr024PqEhxlsmAJhw69E3S4dTcADTB5EAgjfWZCUwVXU9LH6pv+IcDyF4P0U+2vlMaw7e5JYNNRckx1lO4rEENEc73VPjfzOBg85seXkqvifHWUqcOcJLL+Z0AHv+4V881j31MP1+3b8E8tp02VA7KSHEjTWC2wNyNDoF0HBfxWwtRo75r6Dt9ajPdozf8AFeMY7FGp4pmdPK6Xpu1W/jHP5Pp/hvHaGIBNGqyoBrlcCW/3N1b6p9uIXyzhsbUpOFSm9zHtBhzSWnykbdF6h2Q/ELve7oYkltR0BlWwZUOgDx+R56WPTRLwOdPWf4haOIVJ3zuZUTWdzKXirV5/EFYcVG6pBWdzKzMU/Eatn8SI0uoDH1DuPZVzVNrk8hLD+MfzhYKrv5ikQ9SFRGBZjFFaVb3q0jA+e4tCNRbpOyC9pE9Eajr6KFGKkQb8vutMeOemqWFyfL7lSaN0EZLltrpmT+wl+7J3WZSL7/JARcFtkkeqIWzG2qnT5dP2UGiW6XR8Nhw6NhJ90N067fRap1fNIHDQHiynYfeyDQzOMDX9FvCVCJt1n3T2GaBDhAOafSEjM0sTpnHKPNUnaHjJk06RLdRUIMSdMojbn+5jxjizmE02ETu4bE7DqueqO3O11XPP7UddfhnC8SexhazK3xTmABdIsLnSL6cyrXiXDqjmd/JMNuDMxe6rMDwqoabasDJ3opHxNzZ8uc+GZiJvouv4mO7wx+KS0NFxq6wsn1ffoc/Pbi+GY/u3NO/lq0nTpbddnUxoqNAkWJg8wIA9FzmO4ZIbBEhrQPQAfVBoVnNykTH5h13EIs05cdZhsRlc2TbT62JTtTFSDm0HzN1ylDiDcsHUGfSZRcV2hYAA2TGszOknpyUeKvJZ8d4oynRMfERlAG8fTUrz7G1H1HZna8r2T+PxprOzkRyHLaEid1rzMZdXWqQhqmzX0WbLQ1VEkFtrvC3oQPmo7qNI/D5/RBPZOwva8V4w1cxVAhjzpVAsAf6/r569tkXzg2pBkEggiCLEXmQvXuwPbP8AiYw+IIFaPA4CBVAF5/rsT19EqqV2YYERtMLRIWZgkpLugtd2FsOCk5wAJO10tAdTK0Fx0AlU2Ge8uLp3FtoKeOMFShUMQQCP0VUHGQByHyui05F9kKxNUTLQdLLaek+e6lwoUiRt9UQMy9VtzxG4UKBIvuLcjGpUnTyUmi0qBfKCbbiCZsfZRaTuFMi6gXXQBg/ToCspmTqoF4jz+S1ng2QZx1MbyoENFvso9zUIlony26I7OGVnflPskC/eQbAx6KVfH5GG19B5qyocAqnoVQ9ocM6k/u3RMAn1P6D5o5y0XZFXVuJ3v7qFa484HpqVgfqP6gPeEQaLVksuzzQawPKY9bfddN2pxAOSnMAeN09B4fuq3sThS6oTJFwLE7XN/ZZjanfVXVCS4F5DZP5WkBp+U+qzvvppP9SrsZIGVhMWk2HMEKBaZJgCR9k7EA3A8hfpceqDUAJ9L+2gHNME3UQQBzk39EPE4YeIm8B2pnQEBOvN4JIIHsLfogYmCHf2uP7900qIqCK5DKtDZUNwpuQ2lBtsO3Japm4/3fVScADKG4w73+ZlAMF0BNYDEupVGPYYexwc08nNMienNIkojjoUE+iuHY4V6TKrdHtDo5TqD1BkeiYXDfhVxI1MK+kTek+39r/EP+WddpnSxcMsCW4s+KfmQFH+JhV/EsTmyjaUsMFuKAbUbs4W8wjYV4DxP8oAVfjBlcYMjVTp19DuAps9HLldI3iAFoKxVVF0gFaWkkJ5ViqWV72fyucPQGyXqGNld9rML3eKeDfOGukdRH2VK+CNCsYqoNI0W6bgoieR6LQpxsUyTa6XX0/dlktGoP70QAb8vNTmyYTa4Adf0SlasQpVawFgElUqdE5CtMYPilWm6WuI/fJdJgO2DhaowHqLH9Fw9eTEc0ZtUhF4lKdWPV+GcdoVdHQeTrG/yK8849iRVr1XE/E8geTfC2/kAkqOI9Cp1AHD5Jc85T6uq2mTng/zD5WT4gH5qvYT3l9RY+isGUyTbeB+/daVDr8DjHU8LVrS0OeIAaCPE/wiBEWEH0S+Go5QwaAR06fZZx1wYMPQEQIqOjzyt+QcgfxOY5G/FPmTP6R81lGg1Z4AI1NtPVLOf5AxpsLRLt40PUp+nhBPjJkxJEQOYugtotgm8SNTd2tyTKYLYb/Te1wuRlPmcxNwRdCrPzOJyiXE2GgkgmANBqmnuvpoOh0zH7hKwS7YW6BAUVdsOI5E/VCKZxw/1H/3H6pYrRmwhBeLjqj7IFTbzQI3XNwh1fiU8R+VQd8UoCZMmFMnZLh8KQdKDdj2G45/C1Jd8D4a/oNnel/SV6y+tyXz+x5C9Z7C8WOIwwDvjpHuz1bHgd7W/wBpQUroi5I8QfdvqncqruJWcB0Qpp1QOM9FFtjCXa+LogfuQpCwoV/CFiCGA3WI8wo/xHpXoVebC0/7dPuuKDp+f1Xo/b2hnwbXj/43i0zYiPuvNGOWXHxp19GFSFJ7wUs5yh3hCvE6NVQ21bQOqEamoUGlPC1uppqli5FeUJycTQqi2CtuWoVElTbfoiPrADS26GHbzF5T7KocLQkalpkd5MyL39F0nCcJmcwZgX5wMkG4AzF2b00XPVKcVo6z6G6t8FUeMzmCTliRtmsT7ZkdFyNxnENdVe4uytzZQdbNsAPOD7o/BuJUgQ1jbkiT8Tjt+whcPqwYqNzAjZuaPO0Df3V5hKNMnM1jWmDLoaJspv8AxcPYsAGXRYaRyH+Eg5+YSQImwiNPLzTb2OcS4x/SMw3Op9JUKrHECTzPxDnHPopUVoZfHmEgsIblflhxDQHHmNbJNrdSSPmeXL1TlRt3GfvvP2S72gNGu+3U9UQnP8TEVX9TPySZVpxxgDwecz6H/KqytIzv1s6INXRFcfqhVQmGVtG+YQKmvv8AUozjLECqgkAm6LRCTTFAwmIZaF2v4ZVy3EPp/lfTJPmwiD7F3uuJBXS9huJMpYphdo6WE8s1gfeEg9dJVBj6hNR07GFekwuc4if9V3n9kloZlJl9EEFSZUhBDXWLRe1YloWGPZ3uHr0xM924id8t7e68mJi1/Zes0699HQ5uWbXPlEwV5lxDAmm94Ju1zgPQ2WH8627hAvkwtlpsfVap0jMoj2wtmYDmG2ijdHeyEOIBT0gqiCUQhDcmlF6lScou0W2BMGadNp1EnaDBPTkh92BYUwD1IJ+pWxTB109r9UelheYAH9MifNI6raMmqZ1E/ouj4bRLBVzNgtb7EtMfIn5LnQ0NrOA029YK6ThxIw73H84c6ddMgFz0hLocmOCCC4+Q+pP76q8pU9CTyO99+SouFO8B8/0Cv6kWF/gHL+XzUX60iDWWNxqOfI9FF9MS0SNue9+XVSdGXfU7dB+qhVI66T7N/wAJAA06fcklzu8zDw5bFuX4s2xkm3RKvAka25nqeUJqp8MQNRz5HqhVDAbYaE6Dm7mmFJ2gIMWi55qmcFe8eMt8nch1HJUTlpPjO/UH6KFVEcbIVbRMo0weE+SBU/fsExQ0RuEYDv69OjOXO9rSeQ3PogK5FY8BH4zw92Hr1KLjJY6J0katMbSCClmO6IKGGvHVNUhySjExQcQRIt0Qde74epnYx4NnMa6fMAyuexzwajiNJslOy3ahgw4o1BBYCwO2gTlnlaB6Ij6bozC7f5hce6nVfjMyjnQS9RNRUkznWIGZYgOtpUJ6aEX1K877aUsmJfycGu9xB+i9HOrb7genO/quK/EPDgOpvG7S3XlB39Vxfyv+Tp/p8cnTqC4UqptG6VMqTai6cY6nkKDWsj0623JLYipJThUN2qG4rRKiSqS24WWmlaLrKLHSEwcougSjGvPNJ0nItKrI0i/skbeOA7uQLiDMehVjgn/+PA/kI/5Uj9ksWZmlvMfPmt8PoP7iCLGcrrEatkW0I0hKnFnwZ3hItb/CvGuHL8ux/p6hc9wkFuexgGCYMEiCDB08OVXVKtfbT/8AKi/Vz4Yc5sCx1O/9vRAxNUeKx+F2/wDSVlSqIFtzz6IdSu2SMv5Ta+hb+iALXp1BTFTLDHOyh2WQSBJAtrH3QKgdAuTb7lEwdc1afd5nW8QAJyyPCSGi06oNanUEC83A1uNfugE+MscWVJnnvsZXMFdFxWq4teHDadfVc6VfLPpF2iDV0RnaIFbRUSVDROdn6xZi6LhqKrOti4Aj2JSWHNl1PYLhgfVdXcCW0rNtMvcOXQf/AGCV+CfVz+JXDKVWkMU1wbUZDXB0NL2k2A5uB25TyXmzJ6r1LtdwR2KpeATUZdgzRMxmF7aDXoF5e1kOIdqDHqEuPh9/U2geXst5jz+awtHJSaw/uyonX9hsdhgX064g1Iyvc6GiPy3+E3JnTa2/aP4I9vioVMp5SL+cWK8dLD5HY816V+GeJquoPL3E02uDKYO0CXAHWLttos+5+r46/B69UA5a9Msd/My09S3Q+iizB5r03CoOlnerV1dTK8Q4Bw5EWPlKqMT2dY7xUnOpu23HvqondVeZVV3axMmlxBtgGujeWX97ravzT4L6uIdb4d+tlznbrx4YPtLHt3nwmWn5q+rViJOUty/zfIQJlI8bw/eUqgkHwmbRJiRErm59WVv17jyk1So5inKlNC7srr1hgHeFCdKaNIoZpp6nACFrKjZVkIGAhqC0ZT02TRWnNTDVI2REBogoeLe5rgOV/NBO/wCxfYqtjgX5xSpiYJGZ7+jG2H+4+xXK1KZaKbYh4fVzE7mWEeX+Au+7Idt8Ph6FM+Jz2sylgEeLlJtE7rn8ZX7ys+uGBjnuc+wPhLjJDJ0Fh+yseeututuueZJhLCB7XjM9xbkJsYIFpiZgSSY3gpnA8TDspkSNQfCeutuepGiTkGsQ6wcCBERLmkHzvso1qQMFwh25Gs2nT1Vo1dOxwa3xC1iCY2mYkXFxcKLuJNzN1AMCY02N1XYCgW1Gta+c7oIzFrjAJElpGawmCb6WTnFsM5jsjG0i0bdywhpLiIBMTYN21tfVLD0Kq3VxkNzWdplJGk6Hn6rP/UW3ZVIN/iaJvz8tfkkqjnBvips1g/ENCWz4X3vKRxNaQfCwD1PLm4808LVtj8PmpkseTawMQbGInRc4ETG1qrGgBwA5NEHe3yUFUibQqmiBU0TFRL1dEySoaL0Hsp/7RmVrc2apJ0J8R9DaBfkvPqWi73sa8GgGg+IF0+pJHyIUf0+K4ntbN4qG2ccp3n6yuC7WYak2o00WhrSDmiYzT52tC7vF8OZUu5t+YsfkuZ4zwRzASJcw77t8/wBVHHU1fUcmyUdoVz2Y4GytULapIAMQLE8jPJdPTwWEoOezuWZqZiXDOeYPinYhXe5BP5XpwYcNJEr2Hs1h6dPDUW0jmZkBDtMxddxjUGSbJThXEKRBbDANvCMoPVsaKyw2IYD3YY2m65DWgAGZ8TNrn3M3lZ9d6qfysNPkWUqZP7391pgBBgwdIOx5Hkei0aLhp9lB4KHdFtLd0/mfmsRowOszYzzN5JjneETD0WkAus10i3lO/MrFihTzTG4XK9zeRI9ilalMiyxYt4zpZwQagCxYriQTCgSsWKkoFywOWLE0iYcAuA6yicZpeCeRE+VwsWJfp/gPBKrfE1w6giZH6q+bVLiBmJHVYsSv0+fjZrBpt1j/AD+90Nz5WLEjRwrv9WmZgtc4zE6Mcp1MWYb43CQCfUn5WWLEEBia1yJMX2aDczrCSrCQRztt9lixOFSvFpgDr+v6rTXWHkFixUX6hVQKmixYgNs0V72WxeWoWzBMEemqxYp6nqq5+x6Bw/ECp4TZ31TVTCeqxYuR0KOrwV1J5qUtD8TbA6/lPvZE4hwTvvG8uaS0Ns4SYsCdZKxYq8qPzFO7hNfD3Y/O3edQB5/5Vxh8S7FUZZarSBLOoF3MceRj0MdVixVu+z5+4Z4VxJ+IZa1Vo8PXkwnQg8zoY2lXfD8cajA6Ohnby99P+lixKn1fUOtIG5+a0sWKUP/Z"
+            />
+          </div>
+          <div class="pop_discript">
+            <div class="pop_discript_title">
+              <span>George Raymond</span>
+              <span>Richard Martin</span>
+            </div>
+            <div class="pop_discript_content">
+              <p>
+                Modern American science fiction writer, screenwriter, producer
+                and editor, winner of many literary awards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

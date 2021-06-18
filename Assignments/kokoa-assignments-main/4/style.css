@@ -1,0 +1,17 @@
+@import "nav.css";
+@import "music.css";
+@import "icons.css";
+@import "tab.css";
+
+body {
+  border: 5px solid rgb(39, 206, 184);
+  margin: 20px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Fira Sans", sans-serif;
+}
+
+main {
+  padding-left: 20px;
+}

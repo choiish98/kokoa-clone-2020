@@ -1,0 +1,33 @@
+.player {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin-left: 10px;
+  background-color: rgb(34, 34, 34);
+  border-radius: 30px;
+  color: white;
+}
+
+.player_music_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.player_music_info_singer {
+  font-size: 8pt;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.player_music_info_title {
+  font-size: 10pt;
+}
+
+.player_icon {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,52 @@
+body {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.father,
+.mother {
+  display: flex;
+}
+
+.father > div,
+.mother > div {
+  width: 180px;
+  height: 300px;
+  border: 5px solid white;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.father > div:first-child {
+  background-color: tomato;
+  margin-right: 10px;
+}
+
+.father > div:nth-child(2) {
+  background-color: teal;
+}
+
+.mother > div:first-child {
+  background-color: burlywood;
+  margin-right: 10px;
+}
+
+.mother > div:nth-child(2) {
+  background-color: thistle;
+}
+
+.children {
+  width: 180px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}

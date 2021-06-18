@@ -1,0 +1,29 @@
+@import "nav.css";
+@import "phone.css";
+@import "musicinfo.css";
+@import "button.css";
+@import "music_list.css";
+@import "border.css";
+@import "player.css";
+@import "playingImg.css";
+@import "playingSong.css";
+@import "playingStatus.css";
+@import "playingIcons.css";
+
+* {
+  box-sizing: border-box;
+  font-family: "Arimo", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  background-color: rgb(247, 247, 247);
+  font-family: "Arimo", sans-serif;
+}
+
+main {
+  background-color: rgb(255, 255, 255);
+  border-radius: 60px;
+}

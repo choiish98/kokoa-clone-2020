@@ -1,0 +1,12 @@
+.playing_img {
+  display: flex;
+  justify-content: center;
+}
+
+.playing_img img {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 1px 5px 20px violet;
+}

@@ -1,0 +1,32 @@
+.music_info {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.music_info_img img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px rgb(189, 189, 189);
+}
+
+.music_info_title {
+  margin-top: 30px;
+}
+
+.music_info_title span {
+  font-size: 16pt;
+  font-weight: 600;
+}
+
+.music_info_genre {
+  margin-top: 10px;
+}
+
+.music_info_genre span {
+  font-size: 9pt;
+  opacity: 0.5;
+}
